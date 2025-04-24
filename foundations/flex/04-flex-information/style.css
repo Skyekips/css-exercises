@@ -1,3 +1,17 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #f9f9f9;
+  flex-direction: column;
+}
+.plant-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -23,4 +37,10 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.plant-barberry, .plant-chili, .plant-pepper, .plant-saffron {
+  text-align: center;
+  width: 200px;
+  word-wrap: break-word;
 }
